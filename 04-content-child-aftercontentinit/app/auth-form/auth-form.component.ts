@@ -42,6 +42,7 @@ export class AuthFormComponent implements AfterContentInit {
   }
 
   onSubmit(value: User) {
+    console.log('submitted');
     this.submitted.emit(value);
   }
 
